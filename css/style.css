@@ -131,3 +131,29 @@
    background-color: var(--violet-doux);
    transform: translateY(-3px);
 }
+
+.apropos {
+   width: 800PX;
+   margin: 6rem auto;
+   text-align: center;
+}
+.apropos h2{
+   color: var(--violet-doux);
+   font-size: 2.6rem;
+   font-weight: 700;
+}
+
+.apropos h2::after{
+   content: '';
+   width: 60px;
+   height: 4px;
+   background-color: var(--violet-doux);
+   margin: 1.2rem auto;
+   border-radius: 2px;
+}
+section p {
+   margin-bottom: 2rem;
+   color: var(--gris-fonce);
+   font-size: 1.3rem;
+}
+
